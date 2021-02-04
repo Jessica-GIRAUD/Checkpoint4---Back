@@ -208,7 +208,7 @@ INSERT INTO `ingredient` (`name`, `photo`) VALUES ("Citron", "https://alsace.nou
 INSERT INTO `ingredient` (`name`, `photo`) VALUES ("Liqueur", "https://media.flaschenland.com/ProductImages/500px/40ml_bouteille_apothicaire_1.webp");
 INSERT INTO `ingredient` (`name`, `photo`) VALUES ("Eau", "https://i1.wp.com/oyomy.fr/wp-content/uploads/2016/07/verre-d-eau-pure.jpg?w=460&ssl=1");
 INSERT INTO `ingredient` (`name`, `photo`) VALUES ("Maïzena", "https://img-3.journaldesfemmes.fr/vRrCR3wdrdileIXVqLFr0h-r7eQ=/910x607/smart/e6668d4f722f4f77ba841f7faba331c0/ccmcms-jdf/15613195.jpg");
-INSERT INTO `ingredient` (`name`, `photo`) VALUES ("Farine", "https://cuisine-facile.com/images/pages/faire-son-pain-farine.jpg");
+INSERT INTO `ingredient` (`name`, `photo`) VALUES ("Farine", "https://www.avosassiettes.fr/wp-content/uploads/2035/10/farine-et-rouleau.png");
 INSERT INTO `ingredient` (`name`, `photo`) VALUES ("Chocolat", "https://www.lsa-conso.fr/mediatheque/6/8/0/000362086_5.jpg");
 INSERT INTO `ingredient` (`name`, `photo`) VALUES ("Caramel", "https://www.olfastory.com/sites/www.olfastory.com/files/styles/400x400/public/caramel.jpg?itok=BCrZr3Jy");
 INSERT INTO `ingredient` (`name`, `photo`) VALUES ("Framboise", "https://www.notretemps.com/cache/com_zoo_images/e4/framboise02_79051570b64846c016e9c560f4701758.jpg");
