@@ -1,5 +1,8 @@
 const express = require('express');
-const connection = require("../config");
 const router = express.Router();
+
+router.get("/", (request, response) => {
+response.send('Welcome sur mon site');
+})
 
 module.exports = router;

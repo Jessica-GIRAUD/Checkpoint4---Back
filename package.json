@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/Jessica-GIRAUD/Checkpoint4---Back#readme",
   "dependencies": {
+    "db-migrate": "^0.11.12",
+    "db-migrate-mysql": "^2.1.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
