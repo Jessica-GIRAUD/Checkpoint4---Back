@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require('cors');
 const { SERVER_PORT } = require("./env");
 
 const app = express();
@@ -13,6 +14,7 @@ function logInfos(req, res, next) {
 app.use(logInfos);
 
 // pre-route middlewares
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 

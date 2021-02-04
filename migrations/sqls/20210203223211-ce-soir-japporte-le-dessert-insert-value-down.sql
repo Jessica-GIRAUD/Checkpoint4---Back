@@ -7,7 +7,6 @@ ALTER TABLE receipe DROP FOREIGN KEY fk_receipe_dessert;
 ALTER TABLE step DROP FOREIGN KEY fk_step_receipe;
 ALTER TABLE receipe DROP FOREIGN KEY fk_receipe_difficulty;
 
-
 TRUNCATE dessert ;
 TRUNCATE difficulty;
 TRUNCATE receipe;
