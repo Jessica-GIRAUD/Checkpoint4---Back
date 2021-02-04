@@ -12,3 +12,5 @@ TRUNCATE dessert ;
 TRUNCATE difficulty;
 TRUNCATE receipe;
 TRUNCATE step;
+TRUNCATE ingredient;
+TRUNCATE receipe_has_ingredient;
