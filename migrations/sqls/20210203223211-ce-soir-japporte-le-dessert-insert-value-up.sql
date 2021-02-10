@@ -15,6 +15,7 @@ INSERT INTO `dessert` (`name`, `photo`) VALUES ('Crumble aux pommes', 'https://s
 INSERT INTO `dessert` (`name`, `photo`) VALUES ('Profiteroles', 'https://www.latableadessert.fr/sites/default/files/styles/mega_fiche/public/images/recipe/field_recipe_single_carousel_img/recette-profiteroles_12121.jpg?itok=CSoOozfI');
 INSERT INTO `dessert` (`name`, `photo`) VALUES ('Clafoutis pruneaux ', 'https://cac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FCAC.2F2019.2F09.2F20.2Fd4caeaca-765b-429b-8125-29eb2b58d5d6.2Ejpeg/865x600/quality/65/clafoutis-aux-pruneaux.jpg');
 INSERT INTO `dessert` (`name`, `photo`) VALUES ('Cupcake fraise', 'https://cac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FCAC.2F2019.2F09.2F20.2F9d63127e-0aa3-4865-9dc9-b50a9cdf04a4.2Ejpeg/865x600/quality/65/cupcake-a-la-fraise.jpg');
+INSERT INTO `dessert` (`name`, `photo`) VALUES ('Mille-feuille', 'https://cdn.pratico-pratiques.com/app/uploads/sites/2/2020/03/06101337/mille-feuille-maison.jpg');
 
 INSERT INTO `difficulty` (`name`) VALUES ('Très facile');
 INSERT INTO `difficulty` (`name`) VALUES ('Facile');
@@ -36,6 +37,7 @@ INSERT INTO `receipe` (`time_needed`, `number_of_persons`, `Dessert_id`, `Diffic
 INSERT INTO `receipe` (`time_needed`, `number_of_persons`, `Dessert_id`, `Difficulty_id`) VALUES ('50 minutes', '6', '13', '2');
 INSERT INTO `receipe` (`time_needed`, `number_of_persons`, `Dessert_id`, `Difficulty_id`) VALUES ('1 heure', '6', '14', '1');
 INSERT INTO `receipe` (`time_needed`, `number_of_persons`, `Dessert_id`, `Difficulty_id`) VALUES ('1 heure et 5 minutes', '6', '15', '1');
+INSERT INTO `receipe` (`time_needed`, `number_of_persons`, `Dessert_id`, `Difficulty_id`) VALUES ('4 heures', '6', '16', '4');
 
 
 INSERT INTO `step` (`description`, `receipe_id`) VALUES ("1.  Écraser en miettes d’1 paquet de petit beurre et les mélanger avec 100g de beurre doux.", "1");
@@ -190,6 +192,8 @@ INSERT INTO `step` (`description`, `receipe_id`) VALUES ("10. Dans un bol, fouet
 INSERT INTO `step` (`description`, `receipe_id`) VALUES ("11. Remplir une poche à douille avec cette préparation puis décorer vos cupcakes totalement refroidis.", '15'); 
 INSERT INTO `step` (`description`, `receipe_id`) VALUES ("12. Décorer de perles et de copeaux de chocolat avant de laisser le glaçage prendre de la consistance au réfrigérateur.", '15'); 
 
+INSERT INTO `step` (`description`, `receipe_id`) VALUES ("1. Dégustez une millefeuille", '16'); 
+
 
 INSERT INTO `ingredient` (`name`, `photo`) VALUES ('Banane', 'https://img-3.journaldesfemmes.fr/dZMGY3kjaLpXk883IjnEf7BOZlc=/910x607/smart/d47b1bd18da64f2a94a7ee7286be5ee9/ccmcms-jdf/10662309.jpg');
 INSERT INTO `ingredient` (`name`, `photo`) VALUES ("Œufs", "https://observatoireprevention.org/wp-content/uploads/2019/09/shutterstock_496251349.jpg");
@@ -318,4 +322,7 @@ INSERT INTO `receipe_has_ingredient` (`receipe_id`, `ingredient_id`) VALUES ('15
 INSERT INTO `receipe_has_ingredient` (`receipe_id`, `ingredient_id`) VALUES ('15', '25');
 INSERT INTO `receipe_has_ingredient` (`receipe_id`, `ingredient_id`) VALUES ('15', '3');
 INSERT INTO `receipe_has_ingredient` (`receipe_id`, `ingredient_id`) VALUES ('15', '8');
+INSERT INTO `receipe_has_ingredient` (`receipe_id`, `ingredient_id`) VALUES ('16', '2');
+INSERT INTO `receipe_has_ingredient` (`receipe_id`, `ingredient_id`) VALUES ('16', '7');
+INSERT INTO `receipe_has_ingredient` (`receipe_id`, `ingredient_id`) VALUES ('16', '22');
 
