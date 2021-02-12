@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require('cors');
-const SERVER_PORT = process.env.SERVER_PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
@@ -29,8 +29,8 @@ app.use(express.urlencoded({ extended: true }));
 require("./routes")(app);
 
 // server setup
-const server = app.listen(SERVER_PORT, () => {
-  console.log(`Server running on port ${SERVER_PORT}`);
+const server = app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
 
 module.exports = server;
