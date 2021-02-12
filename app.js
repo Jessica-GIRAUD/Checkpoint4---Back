@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require('cors');
-const SERVER_PORT = 5000;
+const SERVER_PORT = 3000;
 
 const app = express();
 
