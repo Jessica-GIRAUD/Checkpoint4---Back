@@ -1,8 +1,13 @@
 const express = require("express");
 const cors = require('cors');
-const SERVER_PORT = 3000;
+const SERVER_PORT = process.env.SERVER_PORT || 3000;
 
 const app = express();
+
+app.get("/", function(req, res) {
+  //when we get an http get request to the root/homepage
+  res.send("Hello World");
+});
 
 app.use(express.json()); // For JSON format
 
@@ -14,7 +19,9 @@ function logInfos(req, res, next) {
 app.use(logInfos);
 
 // pre-route middlewares
-app.use(cors());
+app.use(cors({
+  origin : ["http://localhost:3000", "https://ce-soir-japporte-le-dessert.herokuapp.com/"]
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
